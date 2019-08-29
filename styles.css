@@ -1,0 +1,35 @@
+
+
+#data-strip {
+   height: 150px;
+   
+  
+}
+
+#data-strip img {
+    width:100%;
+    height: 150px;
+ 
+    
+}
+
+#img-strip {
+    background-image: url('./img/fixedDog.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    background-position: center center;
+    font-size: 8rem !important;
+    
+    line-height: 1.5;
+    
+   
+}
+
+#next {
+    height: 50px;
+    background-color: rgb(156,149,7,0.4);
+    background-color: rgb(90,88,0,0.4);
+    background-color: rgba(174, 186, 56, 0.5);
+}
