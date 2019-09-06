@@ -1,4 +1,9 @@
 
+body {
+    font-family: "Montserrat";
+    
+    
+  }
 
 #data-strip {
    height: 150px;
@@ -14,12 +19,12 @@
 }
 
 #img-strip {
-    background-image: url('./img/fixedDog.jpg');
+    background-image: url('./img/dogFixed.jpg');
     height: 500px;
     background-repeat: no-repeat;
     background-size:cover;
-    width: 100%;
-    background-position: center center;
+    background-position: center;
+      width: 100%;
     font-size: 8rem !important;
     
     line-height: 1.5;
@@ -27,9 +32,99 @@
    
 }
 
-#next {
-    height: 50px;
-    background-color: rgb(156,149,7,0.4);
-    background-color: rgb(90,88,0,0.4);
-    background-color: rgba(174, 186, 56, 0.5);
+
+
+.colorThis{
+  background-color: rgba(209, 216, 141, 0.2);
+  background-size: cover
+}
+
+
+  
+.icon {
+    color: #0874B5;
+    color: #f37285;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: rgb(43, 133, 189);
+  }
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  .icon-header{
+    color:#0874B5;
+    color: rgba(2, 87, 139, 0.8);
+    display: block;
+  }
+  .service-card {
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 300px;
+    padding-bottom: 0.3rem
+
+
+  }
+
+#hospital {
+  background-image: url("./img/hospitalFxied.jpg");
+ 
+ 
+}
+#medicen{
+  background-image: url("./img/medicneFixed.jpg")
+}
+
+#styling{
+  background-image: url("./img/stylingFixed.jpg")
+}
+
+#lab{
+  background-image: url("./img/labFixed.jpg")
+}
+
+#dr{
+  background-image: url("./img/matanFixed.jpg")
+}
+
+#tipulim{
+  background-image: url("./img/tipulim2Fixed.jpg")
+}
+#services{
+  padding-left: 8rem;
+  padding-right: 8rem;
+
+}
+.pad{
+  padding-bottom: 0.3rem;
+}
+
+.dark-overlay{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  background-size:cover;
+  
+}
+
+.dark-overlay:hover {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  background-size:cover
+}
+
+a h1 {
+  padding-top: 45%;
 }
