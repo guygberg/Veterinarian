@@ -6,7 +6,7 @@ body {
   }
 
 #data-strip {
-   height: 150px;
+   height: 100%;
    
   
 }
@@ -20,11 +20,11 @@ body {
 
 #img-strip {
     background-image: url('./img/dogFixed.jpg');
-    height: 500px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center;
-      width: 100%;
+   
+    width: 100%;
     font-size: 8rem !important;
     
     line-height: 1.5;
